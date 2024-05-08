@@ -35,7 +35,7 @@ h1{
 .bi-whatsapp{
     color: green;
     font-size: 60px;
-    top: 300px;
+    top: 0px;
     right: 0px;
 }
 
@@ -53,7 +53,7 @@ h1{
 .link_whats{
     display: flex; 
     position: fixed;
-    top: 650px;
+    top: 500px;
     right: 230px;
     text-decoration: none;
     font-weight: bolder;

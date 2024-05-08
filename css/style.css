@@ -651,9 +651,78 @@ h1{
       transform: translateX(0px);
    }
 }
- 
 
+.contrate_texto{
+   bottom: 80px;
+   left: 330px;
+}
+
+.contrate_texto h2{
+   font-size: 2rem;
+}
+
+#modal{
+   width: 50%;
+}
  }
+
+ @media (max-width:601px){
+   .bebidas{
+      overflow: auto;
+   }
+
+   .bebida{
+      flex-flow: column;
+   }
+
+   .btn_sou_bartender{
+      font-size: 20px;
+      font-weight: bolder;
+   }
+
+   .contrate_texto{
+      bottom: 20px;
+      left: 260px;
+   }
+   
+   .contrate_texto h2{
+      font-size: 1.8rem;
+   }
+
+   footer{
+      flex-flow: column;
+      align-items: center;
+      gap: 30px;
+   }
+   }
+
+   @media (max-width:401px){
+      h1{
+         font-size: 2rem;   
+     }
+
+     .btn_sou_bartender{
+      font-size: 16px;
+      font-weight: bolder;
+   }
+
+   .contrate h2{
+     display: none;
+   }
+
+   .btn_contrate{
+      width: 150px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+   }
+
+   .contrate_texto{
+      bottom: 20px;
+      left: 200px;
+   }
+
+   }
 
  
  
